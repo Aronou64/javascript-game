@@ -5,6 +5,8 @@ window.addEventListener('load',startGame);
 
 
 function startGame(){
+    canvas.setAttribute('width',window.innerWidth * 0.75)
+    window.innerWidth
  //game.fillRect(0,0,100,100)
  //game.clearRect(0,0,50,50)
     game.font = '25px verdana';
